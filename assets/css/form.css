@@ -1,6 +1,6 @@
 .message-form {
   padding: 20px 10px;
-  background: var(--accent);
+  background: var(--bg-color);
 }
 .article-register-wrapper {
   margin: 0 auto;
@@ -23,6 +23,7 @@
   width: 100%;
   padding: 15px 10px;
   font-size: 1rem;
+  border: none;
 }
 
 .input-message-form {
