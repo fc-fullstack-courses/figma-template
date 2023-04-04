@@ -1,5 +1,5 @@
 .article-form {
-  padding: 20px 20px;
+  padding: 20px 10px;
 }
 .article-register-wrapper {
   margin: 0 auto;
@@ -14,9 +14,7 @@
   margin: 40px 0;
   justify-content: space-between;
 }
-.label-message-form {
-  display: block;
-}
+
 .input-message-form,
 .textarea-message-form {
   display: block;
@@ -27,6 +25,7 @@
   min-height: 2.5rem;
   width: 45%;
 }
+
 .btn {
   align-self: center;
 }
