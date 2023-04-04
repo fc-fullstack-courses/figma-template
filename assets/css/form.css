@@ -1,5 +1,6 @@
 .message-form {
   padding: 20px 10px;
+  background: var(--accent);
 }
 .article-register-wrapper {
   margin: 0 auto;
@@ -17,12 +18,14 @@
 
 .input-message-form,
 .textarea-message-form {
+  color: var(--form-text-color);
   display: block;
   width: 100%;
+  padding: 15px 10px;
+  font-size: 1rem;
 }
 
 .input-message-form {
-  min-height: 2.5rem;
   width: 45%;
 }
 
