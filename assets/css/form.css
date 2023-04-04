@@ -1,5 +1,5 @@
 .article-form {
-  padding: 20px 10px;
+  padding: 20px 20px;
 }
 .article-register-wrapper {
   margin: 0 auto;
@@ -33,9 +33,19 @@
 
 @media screen and (min-width: 576px) {
   .article-register-wrapper {
-    width: 50%;
+    width: 75%;
   }
   .form-name-wrapper {
     margin-top: 70px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .article-register-wrapper {
+    width: 75%;
+  }
+}
+@media screen and (min-width: 992px) {
+  .article-register-wrapper {
+    width: 50%;
   }
 }
