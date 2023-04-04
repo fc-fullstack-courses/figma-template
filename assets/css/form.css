@@ -1,0 +1,41 @@
+.article-form {
+  padding: 20px 10px;
+}
+.article-register-wrapper {
+  margin: 0 auto;
+}
+.comments-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.form-name-wrapper {
+  display: flex;
+  margin: 40px 0;
+  justify-content: space-between;
+}
+.label-message-form {
+  display: block;
+}
+.input-message-form,
+.textarea-message-form {
+  display: block;
+  width: 100%;
+}
+
+.input-message-form {
+  min-height: 2.5rem;
+  width: 45%;
+}
+.btn {
+  align-self: center;
+}
+
+@media screen and (min-width: 576px) {
+  .article-register-wrapper {
+    width: 50%;
+  }
+  .form-name-wrapper {
+    margin-top: 70px;
+  }
+}
