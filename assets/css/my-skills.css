@@ -62,9 +62,9 @@
     flex-direction: row;
     justify-content: space-between;
   }
-    .my-skills-wrapper {
+  .my-skills-wrapper {
     width: 40%;
-    }
+  }
   .image-wrapper-my-skills {
     margin: 0;
     width: 45%;
