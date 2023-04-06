@@ -1,6 +1,6 @@
 .my-projects {
-  background-color: var(--accent-color); 
-  color: var(--accent-text-color); 
+  background-color: var(--accent-color);
+  color: var(--accent-text-color);
   padding: 40px 0;
 }
 .project-grid {
@@ -14,7 +14,6 @@
   grid-column: span 6;
   display: flex;
   justify-content: center;
-
 }
 .quantity-project {
   display: block;
@@ -28,4 +27,27 @@
 }
 .text-my-project {
   padding: 5px 0 0 10px;
+}
+@media screen and (min-width: 576px) {
+  .project-grid {
+    grid-template-rows: repeat(2, 1fr);
+  }
+  .project-wrapper {
+    grid-column: span 4;
+  }
+}
+@media screen and (min-width: 992px) {
+  .my-projects {
+    padding: 60px 0;
+  }
+  .project-grid {
+    grid-template-rows: 1fr;
+  }
+  .project-wrapper {
+    grid-column: span 2;
+    justify-content: space-evenly;
+  }
+  .text-my-project {
+  padding: 5px 0;
+  }
 }
