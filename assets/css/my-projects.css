@@ -11,7 +11,8 @@
 .project-wrapper {
   grid-column: span 2;
   display: flex;
-  justify-content: flex-end;
+  flex:row wrap-reverse;
+  justify-content: space-between;
 }
 .img-project {
   display: block;
