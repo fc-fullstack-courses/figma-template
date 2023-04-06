@@ -1,25 +1,31 @@
 .my-projects {
-  background-color: var(--accent-color);
-  color: var(--accent-text-color);
+  background-color: var(--accent-color); 
+  color: var(--accent-text-color); 
   padding: 40px 0;
 }
 .project-grid {
+  padding: 0 10px;
   display: grid;
-  gap: 40px 0;
   grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 20px;
 }
 .project-wrapper {
-  grid-column: span 2;
+  grid-column: span 6;
   display: flex;
-  flex:row wrap-reverse;
-  justify-content: space-between;
-}
-.img-project {
-  display: block;
-  width: 100%;
-  height: 100%;
+  justify-content: center;
+
 }
 .quantity-project {
   display: block;
   font-size: 1.4rem;
+  margin-bottom: 10px;
+}
+.img-project {
+  display: block;
+  width: 100%;
+  min-width: 20px;
+}
+.text-my-project {
+  padding: 5px 0 0 10px;
 }
