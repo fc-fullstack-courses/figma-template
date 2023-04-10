@@ -1,0 +1,54 @@
+.message-form {
+  padding: 20px 10px;
+  background: var(--bg-color);
+}
+.article-register-wrapper {
+  margin: 0 auto;
+}
+.comments-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.form-name-wrapper {
+  display: flex;
+  margin: 40px 0;
+  justify-content: space-between;
+}
+
+.input-message-form,
+.textarea-message-form {
+  color: var(--form-text-color);
+  display: block;
+  width: 100%;
+  padding: 15px 10px;
+  font-size: 1rem;
+  border: none;
+}
+
+.input-message-form {
+  width: 45%;
+}
+
+.btn {
+  align-self: center;
+}
+
+@media screen and (min-width: 576px) {
+  .article-register-wrapper {
+    width: 75%;
+  }
+  .form-name-wrapper {
+    margin-top: 70px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .article-register-wrapper {
+    width: 75%;
+  }
+}
+@media screen and (min-width: 992px) {
+  .article-register-wrapper {
+    width: 50%;
+  }
+}
